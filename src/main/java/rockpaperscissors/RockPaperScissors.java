@@ -15,8 +15,11 @@ public class RockPaperScissors {
         String winningPlayer="";
         if (inputString1.equals("paper") && inputString2.equals("rock")){
             winningPlayer = "Player 1 is the winner!";
+        } else if (inputString1.equals("paper") && inputString2.equals("scissors")){
+            winningPlayer = "Player 2 is the winner!";
+        } else if (inputString1.equals("paper") && inputString2.equals("paper")){
+            winningPlayer = "Player 1 and Player 2 have tied!";
         }
-
 
 
 
